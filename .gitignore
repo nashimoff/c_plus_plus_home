@@ -1,10 +1,14 @@
+# MacOS
+.DS_Store
+
 # Build folders
 build/
 build-Debug/
+build-Release/
 
 # IDE files
-.codelite/
 .vscode/
+.codelite/
 
 # clang / tooling
 .cache/
@@ -14,4 +18,9 @@ compile_commands.json
 *.o
 *.out
 *.exe
-.DS_Store
+*.a
+*.so
+*.dylib
+
+# debug
+*.dSYM
