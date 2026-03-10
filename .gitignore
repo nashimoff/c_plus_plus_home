@@ -1,0 +1,15 @@
+# Build folders
+build/
+build-Debug/
+
+# IDE files
+.codelite/
+
+# clang / tooling
+.cache/
+compile_commands.json
+
+# binaries
+*.o
+*.out
+*.exe
