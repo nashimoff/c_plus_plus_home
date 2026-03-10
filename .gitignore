@@ -4,6 +4,7 @@ build-Debug/
 
 # IDE files
 .codelite/
+.vscode/
 
 # clang / tooling
 .cache/
