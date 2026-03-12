@@ -5,8 +5,9 @@
   <Project Name="WhileLoop" Path="WhileLoop/WhileLoop.project" Active="No"/>
   <Project Name="DoWhile" Path="DoWhile/DoWhile.project" Active="No"/>
   <Project Name="MultiplactionTable" Path="MultiplactionTable/MultiplactionTable.project" Active="No"/>
-  <Project Name="Histogram" Path="Histogram/Histogram.project" Active="No"/>
-  <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="Yes"/>
+  <Project Name="Histogram" Path="Histogram/Histogram.project" Active="Yes"/>
+  <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
+  <Project Name="CStyleStrings" Path="CStyleStrings/CStyleStrings.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="MultiplactionTable" ConfigName="Debug"/>
       <Project Name="Histogram" ConfigName="Debug"/>
       <Project Name="ChallengeSolution" ConfigName="Debug"/>
+      <Project Name="CStyleStrings" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="MultiplactionTable" ConfigName="Release"/>
       <Project Name="Histogram" ConfigName="Release"/>
       <Project Name="ChallengeSolution" ConfigName="Release"/>
+      <Project Name="CStyleStrings" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
