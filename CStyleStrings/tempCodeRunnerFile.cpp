@@ -1,8 +1,4 @@
-cout << first_name; // Will likely display garbage!
-
-	// cout << "Pleas enter your first name: ";
-	// cin >> first_name;
-
-	// cout << "Please enter your last name: ";
-	// cin << last_name;
-	// cout << "-------------------------" << endl;
+for(size_t i{0}; i < strlen(full_name); ++i){
+	// 	if(isalpha(full_name[i]))
+	// 		full_name[i] == toupper(full_name[i]);
+	// }
