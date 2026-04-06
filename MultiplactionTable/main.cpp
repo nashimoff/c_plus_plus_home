@@ -1,5 +1,5 @@
 //Section 9
-//Nested Loops - Multiplication Table. //nurlan
+//Nested Loops - Multiplication Table. //nurlan 
 
 #include <iostream>
 
